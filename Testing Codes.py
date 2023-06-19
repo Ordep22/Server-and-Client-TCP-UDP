@@ -2,11 +2,9 @@ import socket
 from time import localtime
 from time import sleep
 
-HOST = '192.168.0.138'
+HOST = ''
 PORT = 47000
 
-# 177.207.193.146
-# 187.32.79.169
 
 
 tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -14,7 +12,7 @@ tcp.bind((HOST, PORT))
 tcp.listen()
 
 print("Aguardando conexão!")
-msg = b"LUPA2022"
+msg = b"TEST2022"
 
 while True:
     conexao, endereco = tcp.accept()

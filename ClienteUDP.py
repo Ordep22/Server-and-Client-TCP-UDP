@@ -9,7 +9,7 @@ client_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 #client_socket.close()
 
 # Mensagem a ser enviada ao servidor
-message = b'LUPA'
+message = b'TEST'
 
 try:
     # Envia a mensagem para o servidor

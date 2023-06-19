@@ -1,17 +1,15 @@
 import socket
 from time import localtime, sleep
-# 177.207.193.146
-# 187.32.79.169
-# 127.0.0.1
 
-localIP = '192.168.0.6'
+
+localIP = ''
 #localIP = 'localhost'
 
 localPort = 47001
 
 bufferSize = 1024
 
-messagetosend = b"LUPA2022"
+messagetosend = b"TEST2022"
 
 # Create a datagram socket
 

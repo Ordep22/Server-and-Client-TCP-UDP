@@ -3,7 +3,7 @@ from time import sleep
 
 count  = 4
 
-HOST = "192.168.193.170"
+HOST = ""
 
 PORT = 39000
 
